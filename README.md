@@ -1,30 +1,31 @@
 # QuickReply #
 
-Reply to Notification Center message notifications without going to the app.
+Reply to Notification Center message notifications using a global hotkey, without going to the app.
 
 ## Using it ##
 
 ### FastScripts ###
 Free for up to 10 shortcuts.
 * Get using [homebrew]: `cask update`, `cask install fastscripts`.
-* Get manually: [download Fastscripts].
-* Download `QuickReply.scpt` and move it to ~/Library/Scripts (may require administrator privileges)
+* Get manually: [download Fastscripts] and install.
+* Download `QuickReply.scpt` and move it to `~/Library/Scripts` (may require administrator privileges)
 * Open FastScripts preferences and assign a keyboard shortcut to **QuickReply**.
 
 ### Other options ###
-* [There are many other options for running AppleScripts][https://superuser.com/questions/153890/assign-a-shortcut-to-running-a-script-in-os-x/264943#264943]
+* [There are many other options for running AppleScripts](https://superuser.com/questions/153890/assign-a-shortcut-to-running-a-script-in-os-x/264943#264943)
 * Download `QuickReply.scpt` and assign it a shortcut
 
 ### OSX Services ###
 
 **Unfortunately, there are several bugs with OSX Services that render this approach unworkable. Services take a long time to fire, and global Services shortcut keys don't work in applications that don't have a Services menu.**
 
-~~* Download `QuickReply.workflow`
-* Double-click it to install
-* Go to **System Preferences** -> **Keyboard** -> **Shortcuts**
-* Click **Services** on the left
-* Scroll to the bottom, under **General**
-* Assign a key combination to **QuickReply**~~
+
+* ~~Download `QuickReply.workflow`~~
+* ~~Double-click it to install~~
+* ~~Go to **System Preferences** -> **Keyboard** -> **Shortcuts**~~
+* ~~Click **Services** on the left~~
+* ~~Scroll to the bottom, under **General**~~
+* ~~Assign a key combination to **QuickReply**~~
 
 
 ## Details ##
