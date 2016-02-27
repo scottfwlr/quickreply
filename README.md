@@ -8,7 +8,7 @@ Reply to Notification Center message notifications using a global hotkey, withou
 Free for up to 10 shortcuts.
 * Get using [homebrew]: `cask update`, `cask install fastscripts`.
 * Get manually: [download Fastscripts] and install.
-* Download `QuickReply.scpt` and move it to `~/Library/Scripts` (may require administrator privileges)
+* Download **`QuickReply.scpt`** and move it to `~/Library/Scripts` (may require administrator privileges)
 * Open FastScripts preferences and assign a keyboard shortcut to **QuickReply**.
 
 ### Other options ###
@@ -34,9 +34,9 @@ Lots of messaging applications (like Skype) tie into OSX's Notification Center.
 
 Replying to a notification requires you to use the mouse, which is not ideal.
 
-It's pretty simple to use AppleScripts to set up a shortcut key that lets you reply to Alerts... but using Alerts means notifications stay on the screen until dismissed, which is not ideal.
+It's pretty simple to use AppleScripts to set up a shortcut key that lets you reply to Alerts, but using Alerts means notifications stay on the screen until dismissed, which is not ideal.
 
-The simple approache is unworkable with Banners, since the Reply button only comes into existence once you hover over the notification. 
+The simple approach is unworkable with Banners, since the Reply button only comes into existence once you hover over the notification. 
 
 This script takes a more complicated approach: it stores the mouse location, hides the mouse cursor, mouses over the banner to reveal the Reply button, restores the mouse to its original location, then activates the Reply button.
 
